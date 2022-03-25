@@ -1,12 +1,14 @@
 import React from 'react';
+import './Fruit.css'
 
-const Fruit = () => {
+const Fruit = ({fruit, addToCart}) => {
+    const {id, fruitName, price, picture} = fruit 
     return (
         <div className='item'>
-            <img src="" alt="FruitImage" />
-            <h1>Fruit name</h1>
-            <strong>Price: $ 30</strong>
-            <button>Add to cart </button>
+            <img src={picture} alt="FruitImage" />
+            <h3>{fruitName}</h3>
+            <strong>Price: $ {price} </strong>
+            <button onClick={() =>addToCart(id) }>Add to cart </button>
         </div>
     );
 };
