@@ -2,13 +2,13 @@
     text-align: center;
     background-color: #fff;
     border-radius: 8px;
-    padding: 15px;
+    padding: 30px;
 }
 .item button {
     font-size: 18px;
     margin: 10px auto;
     display: block;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border: 1px solid orange;
     cursor: pointer;
     border-radius: 5px;
@@ -16,4 +16,7 @@
 }
 .item button:hover {
     background-color: orangered;
+}
+.item button svg {
+    margin-left: 10px;
 }
