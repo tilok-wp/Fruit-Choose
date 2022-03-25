@@ -4,7 +4,7 @@
 
 Click here to go Live site: [https://fruit-choose.netlify.app/](https://fruit-choose.netlify.app/)
 
-## Available Scripts
+## Steps to Project run and build file
 
 In the project directory, you can run:
 
