@@ -38,6 +38,9 @@
     .products-wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+    .cart-wrapper {
+        margin: 0 50px;
+    }
 }
 @media screen and (max-width: 768px){
     .products-wrapper {

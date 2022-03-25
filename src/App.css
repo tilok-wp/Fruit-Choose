@@ -1,0 +1,17 @@
+.about-react {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 50px;
+}
+
+@media screen and (max-width: 991px){
+    .about-react {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 768px){
+    .about-react {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
