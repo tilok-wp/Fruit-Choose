@@ -39,8 +39,13 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .cart-wrapper {
-        margin: 0 50px;
+        margin: 50px 15px;
+        padding: 15px 30px;
     }
+    .products-wrapper {
+        padding: 0 15px 30px;
+    }
+    
 }
 @media screen and (max-width: 768px){
     .products-wrapper {
