@@ -1,0 +1,15 @@
+.selected-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    border: 1px solid #fff;
+    padding: 5px;
+    
+}
+.selected-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 50%;
+}
