@@ -1,74 +1,74 @@
 [
   {
     "id": "623e00cc50843b5e65fc69af",
-    "fruitName": "Eliza Shaw",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Mango",
+    "picture": "https://www.randomlists.com/img/fruits/mango.webp",
     "price": 306
   },
   {
     "id": "623e00cc65c5d46a7e468dfe",
-    "fruitName": "Maggie Little",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Peach",
+    "picture": "https://www.randomlists.com/img/fruits/peach.webp",
     "price": 63
   },
   {
     "id": "623e00cccfa5e9d81632462e",
-    "fruitName": "Jane Hebert",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Papaya",
+    "picture": "https://www.randomlists.com/img/fruits/papaya.webp",
     "price": 46
   },
   {
     "id": "623e00ccfe02a7e3462a264c",
-    "fruitName": "Mckinney Lyons",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Prape",
+    "picture": "https://www.randomlists.com/img/fruits/grape.webp",
     "price": 285
   },
   {
     "id": "623e00cc1920f0d4b9f3d1cd",
-    "fruitName": "Joseph Olson",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Plum",
+    "picture": "https://www.randomlists.com/img/fruits/plum.webp",
     "price": 146
   },
   {
     "id": "623e00cc4967e22766d7d17f",
-    "fruitName": "Patsy Palmer",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Passon fruit",
+    "picture": "https://www.randomlists.com/img/fruits/passon_fruit.webp",
     "price": 166
   },
   {
     "id": "623e00cca64e623fbec3a0ed",
-    "fruitName": "Alvarado Moreno",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Pear",
+    "picture": "https://www.randomlists.com/img/fruits/pear.webp",
     "price": 212
   },
   {
     "id": "623e00cc68e755c5bf7a8276",
-    "fruitName": "Alisha Ware",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Apple",
+    "picture": "https://www.randomlists.com/img/fruits/apple.webp",
     "price": 28
   },
   {
     "id": "623e00ccdf376dcdd33a46df",
-    "fruitName": "Jeanine Whitaker",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "avocado",
+    "picture": "https://www.randomlists.com/img/fruits/avocado.webp",
     "price": 208
   },
   {
     "id": "623e00cc93d59af91c014233",
-    "fruitName": "Ana Guerra",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Cherry",
+    "picture": "https://www.randomlists.com/img/fruits/cherry.webp",
     "price": 398
   },
   {
     "id": "623e00ccaffea4a21e807721",
-    "fruitName": "Cooke Gillespie",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Kumquat",
+    "picture": "https://www.randomlists.com/img/fruits/kumquat.webp",
     "price": 44
   },
   {
     "id": "623e00cc5e9758674fc6968a",
-    "fruitName": "Lizzie Hahn",
-    "picture": "https://www.randomlists.com/img/fruits/lime.webp",
+    "fruitName": "Pomegranate",
+    "picture": "https://www.randomlists.com/img/fruits/pomegranate.webp",
     "price": 222
   }
 ]
