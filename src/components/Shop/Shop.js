@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addLocalStorage, emptyCart, getLocalStorageData } from '../../utilities/dataBaseManage';
+import { addLocalStorage, emptyCart, getLocalStorageData, removeItem } from '../../utilities/dataBaseManage';
 import Fruit from '../Fruit/Fruit';
 import SelectedList from '../SelectedList/SelectedList';
 import './Shop.css'
@@ -56,7 +56,7 @@ const Shop = () => {
         emptyCart('fruit-cart')
         setCart([])
     }
-
+// Random product select
     const randomSelect = (products) =>{
         let randomProduct = []
             if(products.length > 0){
@@ -64,6 +64,14 @@ const Shop = () => {
                 randomProduct.push(cart[ramdomNumber])
             }
             setCart(randomProduct) 
+    }
+
+    const deleteCartItem = (id) => {
+        const filterCart = cart.filter(item => item.id !== id)
+        removeItem(id)
+        setCart(filterCart)
+
+        console.log('Item deleted', filterCart)
     }
 
     return (
@@ -81,6 +89,7 @@ const Shop = () => {
                     {cart.map(item => <SelectedList 
                         key={item.id}
                         item={item}
+                        deleteCartItem={deleteCartItem}
                     ></SelectedList>)}
                     <button onClick={() => randomSelect(cart)}>Choose 1 for me</button>
                     <button onClick={() => clearCart() }>Choose again</button>
