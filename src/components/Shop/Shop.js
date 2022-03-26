@@ -66,7 +66,6 @@ const Shop = () => {
             setCart(randomProduct) 
     }
 
-        
     return (
         <div className='shop-container'>
             <div className='products-wrapper'>
